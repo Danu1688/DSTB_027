@@ -38,3 +38,42 @@ proxies:
     path: "/trojanws"
     headers:
       Host: ctn.sshpremium.my.id
+- name: danu27_LiveID27a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
+  udp: true
+  sni: id-rmweb.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/xraytrojanws"
+    headers:
+      Host: id-rmweb.onserver.my.id
+- name: danu27_LiveID27b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
+  udp: true
+  sni: id-rmweb.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/xraytrojanws"
+    headers:
+      Host: id-rmweb.onserver.my.id
+- name: danu27_LiveID27c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
+  udp: true
+  sni: id-rmweb.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/xraytrojanws"
+    headers:
+      Host: id-rmweb.onserver.my.id
