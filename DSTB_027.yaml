@@ -25,32 +25,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
-- name: DanuBackup_LiveDOa
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
-  udp: true
-  sni: do-2device.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-2device.myserver-prem.cloud
-- name: DanuBackup_LiveDOb
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
-  udp: true
-  sni: do-2device.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-2device.myserver-prem.cloud
 - name: DanuBackup_LiveDOc
   type: trojan
   server: beacon.liveon.id
@@ -64,44 +38,3 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: Danu27_LiveHerza27a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-- name: Danu27_LiveHerza27b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-- name: Danu27_LiveHerza27c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: c4f5c18f-cc5a-403b-9b53-ab43dcb4ef4c
-  udp: true
-  sni: herza2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: herza2.myserver-prem.cloud
-
-      
