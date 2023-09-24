@@ -1,4 +1,17 @@
 proxies:
+- name: MessKBUNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2ab8dc5a-da11-4ec0-9fc6-a966f7c50391
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: MessKBU_LiveDO_1
   type: trojan
   server: circles.asia
